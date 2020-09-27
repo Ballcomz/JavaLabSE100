@@ -6,7 +6,7 @@ public class Countdown {
         System.out.print("Three....");
         System.out.print("Two.....");
         System.out.print("One.....");
-        System.out.print("Zero....++++");
+        System.out.print("Zero....++++888");
 
         System.out.println(2020);
         System.out.println("This is my first JAVA program");
