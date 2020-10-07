@@ -1,0 +1,27 @@
+public class TestMax {
+    /** Main method */
+    public static void main(String[] args) {
+      int i = 5;
+      int j = 2;
+      int x = 9;
+      int y = 7;
+      int k = max(i, j); // Invoke max method
+      int m = max(x, y);
+      int n = max(k,m);
+      System.out.println("The maximum between " + i +
+        " " + j + " "+x+" "+y+ " is " + n);
+    }
+  
+    /** Return the max between two numbers */
+    public static int max(int num1, int num2) {
+      int result;
+  
+      if (num1 > num2)
+        result = num1;
+      else
+        result = num2;
+  
+      return result; // Return result
+    }
+  }
+  
